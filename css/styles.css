@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
-    transition: all 0.4s ease-in-out; /* Default smooth transition */
+    transition: all 0.4s ease-in-out; 
 }
 
 body {
@@ -25,7 +25,7 @@ nav {
     align-items: center;
     background: #1a1a2e;
     z-index: 1000;
-    transition: padding 0.3s ease, background-color 0.3s ease; /* Quick and smooth */
+    transition: padding 0.3s ease, background-color 0.3s ease; 
 }
 
 /* Logo */
@@ -53,7 +53,7 @@ nav {
     background: #fff;
     height: 2px;
     width: 100%;
-    transition: all 0.3s ease-out; /* Quick snap for hamburger */
+    transition: all 0.3s ease-out; 
 }
 
 /* Hamburger Animation */
@@ -81,7 +81,7 @@ nav {
     padding: 60px 15px 15px;
     flex-direction: column;
     align-items: center;
-    transition: transform 0.5s ease-in-out, opacity 0.5s ease; /* Smooth slide-in */
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease; 
     transform: translateX(100%);
     z-index: 999;
     opacity: 0;
@@ -103,12 +103,12 @@ nav {
     text-decoration: underline;
     font-size: 16px;
     text-transform: uppercase;
-    transition: color 0.3s ease, transform 0.3s ease-out; /* Quick shift */
+    transition: color 0.3s ease, transform 0.3s ease-out; 
 }
 
 .nav-links li a:hover {
     color: #00ff99;
-    transform: translateX(5px); /* Slight slide for hover */
+    transform: translateX(5px);
 }
 
 /* Close Button for Navigation */
@@ -123,12 +123,12 @@ nav {
     position: absolute;
     top: 15px;
     right: 15px;
-    transition: color 0.3s ease, transform 0.3s ease; /* Smooth color and rotate */
+    transition: color 0.3s ease, transform 0.3s ease; 
 }
 
 .close-btn:hover {
     color: #00ff99;
-    transform: translateY(-2px); /* Slight lift instead of rotate */
+    transform: translateY(-2px); 
 }
 
 /* Home Section */
@@ -161,7 +161,7 @@ nav {
     font-weight: bold;
     margin-bottom: 30px;
     line-height: 1.2;
-    transition: transform 0.6s ease-in-out, opacity 0.6s ease-in-out; /* Slow and dramatic */
+    transition: transform 0.6s ease-in-out, opacity 0.6s ease-in-out; 
 }
 
 .home-content h1 span {
@@ -172,7 +172,7 @@ nav {
     font-size: 18px;
     margin-bottom: 40px;
     max-width: 500px;
-    transition: opacity 0.5s ease-in-out; /* Smooth fade */
+    transition: opacity 0.5s ease-in-out; 
 }
 
 .get-started-btn {
@@ -185,20 +185,20 @@ nav {
     font-weight: bold;
     text-decoration: none;
     cursor: pointer;
-    transition: background 0.3s ease, transform 0.3s ease-out, box-shadow 0.3s ease-out; /* Quick lift */
+    transition: background 0.3s ease, transform 0.3s ease-out, box-shadow 0.3s ease-out; 
 }
 
 .get-started-btn:hover {
     background: #00cc7a;
-    transform: translateY(-5px); /* More pronounced lift */
-    box-shadow: 0 6px 20px rgba(0, 255, 153, 0.4); /* Stronger shadow */
+    transform: translateY(-5px); 
+    box-shadow: 0 6px 20px rgba(0, 255, 153, 0.4); 
 }
 
 /* Home Image */
 .home-image {
     max-width: 300px;
     margin-left: 60px;
-    transition: transform 0.6s ease-in-out; /* Smooth image shift */
+    transition: transform 0.6s ease-in-out; 
 }
 
 .home-image img {
@@ -260,7 +260,7 @@ nav {
     font-weight: bold;
     margin-bottom: 50px;
     text-align: center;
-    transition: transform 0.6s ease-in-out; /* Slow and deliberate */
+    transition: transform 0.6s ease-in-out; 
 }
 
 #about p {
@@ -280,7 +280,7 @@ nav {
     padding-left: 40px;
     text-align: left;
     font-size: 18px;
-    transition: transform 0.4s ease-out, opacity 0.4s ease-out; /* Medium speed slide */
+    transition: transform 0.4s ease-out, opacity 0.4s ease-out; 
 }
 
 .skills li::before {
@@ -319,7 +319,7 @@ nav {
     margin-bottom: 60px;
     color: #000;
     position: relative;
-    transition: transform 0.6s ease-in-out; /* Slow and deliberate */
+    transition: transform 0.6s ease-in-out; 
 }
 
 .portfolio-grid {
@@ -340,15 +340,15 @@ nav {
     max-width: 400px;
     border: 2px solid #16213e;
     border-radius: 5px;
-    transition: all 0.4s ease-out, transform 0.4s ease-out, box-shadow 0.4s ease-out; /* Smooth lift */
+    transition: all 0.4s ease-out, transform 0.4s ease-out, box-shadow 0.4s ease-out; 
     color: #000;
 }
 
 .portfolio-item:hover {
     background: #16213e;
     color: #fff;
-    transform: translateY(-15px); /* Pronounced lift */
-    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.25); /* Stronger shadow */
+    transform: translateY(-15px); 
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.25); 
 }
 
 .portfolio-item h3 {
@@ -422,12 +422,12 @@ footer {
 .footer-right a {
     color: white;
     text-decoration: none;
-    transition: color 0.3s ease, transform 0.3s ease-out; /* Quick slide */
+    transition: color 0.3s ease, transform 0.3s ease-out; 
 }
 
 .footer-right a:hover {
     text-decoration: underline;
-    transform: translateX(5px); /* Slight slide for contact links */
+    transform: translateX(5px); 
 }
 
 .footer-right .contact-content {
@@ -440,7 +440,7 @@ footer {
     margin-bottom: 10px;
     color: #00ff99;
     text-decoration: underline;
-    transition: transform 0.4s ease-in-out; /* Medium speed */
+    transition: transform 0.4s ease-in-out; 
 }
 
 .footer-right p {
